@@ -1,3 +1,8 @@
+"""
+This program receives a file and returns ten IP addresses from which there were most requests
+
+"""
+
 import os
 from operator import itemgetter
 

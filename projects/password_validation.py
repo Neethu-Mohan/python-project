@@ -1,3 +1,13 @@
+"""
+This program checks whether the input string matches the following rules.
+    * the password must begin with a latin letter,
+    * the password can consist of Latin letters, numbers, dot and minuses,
+    * the password must end only with a latin letter or number;
+    * minimum password length is one character
+    * maximum password length is 20 characters
+    
+"""
+
 import getpass
 password_length_max = 20
 password_length_min = 1

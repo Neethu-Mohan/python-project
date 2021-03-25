@@ -1,3 +1,10 @@
+"""
+  This program receives two lists of different lengths. The first contains keys, and the second contains values. 
+And the program creates a dictionary from these keys and values. If the key did not have enough values, the dictionary will have the value None. If
+Values that did not have enough keys will be ignored.
+
+"""
+
 from itertools import chain, repeat
 keys = []
 
@@ -23,8 +30,6 @@ def compare_length(keys, values):
 def check_length(item):
     return len(item)
 
-
-print(check_length(keys))
  
 
 
